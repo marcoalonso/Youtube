@@ -3,14 +3,23 @@
 //  Youtube
 //
 //  Created by marco rodriguez on 30/06/22.
-//
+// https://www.youtube.com/watch?v=63v0hOo-cbI&list=PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH&index=8
 
 import UIKit
+
+//Patron delegation
+protocol RootPageProtocol : AnyObject {
+    func currentPage(_ index: Int)
+}
 
 class RootPageViewController: UIPageViewController {
 
     //El total de VC que voy a tener
     var subViewControllers = [UIViewController]()
+    var currentIndex: Int = 0
+    
+    //desde afuera alguien pueda suscribirse para que desde aqui se puedan mandar llamar metodos
+    weak var delegateRoot : RootPageProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +40,8 @@ class RootPageViewController: UIPageViewController {
         AboutViewController()
         ]
         
+        // Etiquetar cada vc
+        _ = subViewControllers.enumerated().map({$0.element.view.tag = $0.offset})
         //Cual es el controlador por defecto que va aparecer
         setViewControllerFromIndex(index: 0, direction: .forward)
         
@@ -69,6 +80,16 @@ extension RootPageViewController: UIPageViewControllerDelegate, UIPageViewContro
     //Cuantas pantallas voy a presentar
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return subViewControllers.count
+    }
+    
+    //Saber cuando termina la animacion
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        print("DEBUG: Fnished : \(finished)")
+        if let index = pageViewController.viewControllers?.first?.view.tag {
+            print(index)
+            currentIndex = index
+            delegateRoot?.currentPage(index)
+        }
     }
     
 }
