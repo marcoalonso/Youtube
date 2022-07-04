@@ -9,6 +9,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    //crear una instancia, conectar la capa del VC con el presenter
+    lazy var presenter = HomePresenter(delegate: self) //se pasará la instancia lazy
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +19,12 @@ class HomeViewController: UIViewController {
     }
 
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension HomeViewController: HomeViewProtocol {
+    func getData(list: [[Any]]) {
+        print("list: ",list)
     }
-    */
-
+    
+    
 }

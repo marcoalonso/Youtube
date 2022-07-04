@@ -3,11 +3,15 @@
 //  Youtube
 //
 //  Created by marco rodriguez on 04/07/22.
-// Armará la url que le ha´ra la peticion al ServiceLayer
+// Armará la url que le hará la peticion al ServiceLayer
 
 import Foundation
 
-class HomeProvider {
+protocol HomeProviderProtocol {
+    func getVideos(searchString : String, channelId: String ) async throws -> VideoModel
+}
+
+class HomeProvider: HomeProviderProtocol {
     //Se comunicará con la capa de servicio
     func getVideos(searchString : String, channelId: String ) async throws -> VideoModel {
         //a quien voy a consultar y que tipos de datos me va a traer
@@ -25,7 +29,7 @@ class HomeProvider {
         //Consultar la capa de servicio
         do{
             let model = try await ServiceLayer.callService(requestModel, VideoModel.self)
-            return model
+            return model //retorna el modelo del objeto Video
         } catch {
             print(error.localizedDescription)
             throw error //este metodo tambien puede devolver un throws
