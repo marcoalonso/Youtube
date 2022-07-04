@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602AFA1428735FC9006868C7 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA1328735FC8006868C7 /* ServiceLayer.swift */; };
+		602AFA1628735FD0006868C7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA1528735FD0006868C7 /* NetworkError.swift */; };
+		602AFA1828735FDD006868C7 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA1728735FDD006868C7 /* RequestModel.swift */; };
+		602AFA1B2873602C006868C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA1A2873602C006868C7 /* Constants.swift */; };
+		602AFA21287364A1006868C7 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA20287364A1006868C7 /* HomeProvider.swift */; };
+		602AFA2328736738006868C7 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AFA2228736738006868C7 /* HomePresenter.swift */; };
 		6066778F286E5A700035878E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066778E286E5A700035878E /* AppDelegate.swift */; };
 		60667791286E5A700035878E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60667790286E5A700035878E /* SceneDelegate.swift */; };
 		60667793286E5A700035878E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60667792286E5A700035878E /* ViewController.swift */; };
@@ -32,6 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602AFA1328735FC8006868C7 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		602AFA1528735FD0006868C7 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		602AFA1728735FDD006868C7 /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		602AFA1A2873602C006868C7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		602AFA20287364A1006868C7 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		602AFA2228736738006868C7 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		6066778B286E5A700035878E /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6066778E286E5A700035878E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60667790286E5A700035878E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +81,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602AFA1228735F64006868C7 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				602AFA1728735FDD006868C7 /* RequestModel.swift */,
+				602AFA1528735FD0006868C7 /* NetworkError.swift */,
+				602AFA1328735FC8006868C7 /* ServiceLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		602AFA1928736020006868C7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				602AFA1A2873602C006868C7 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		602AFA1C2873645F006868C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				602AFA1F28736481006868C7 /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		602AFA1D28736466006868C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				606677B5286E76B60035878E /* HomeViewController.swift */,
+				606677B6286E76B60035878E /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		602AFA1E28736470006868C7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				602AFA2228736738006868C7 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		602AFA1F28736481006868C7 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				602AFA20287364A1006868C7 /* HomeProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		60667782286E5A700035878E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +151,8 @@
 		6066778D286E5A700035878E /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
+				602AFA1928736020006868C7 /* Utils */,
+				602AFA1228735F64006868C7 /* ServiceLayer */,
 				606677B4286E76980035878E /* About */,
 				606677B3286E76900035878E /* Channels */,
 				606677B2286E76870035878E /* Playlists */,
@@ -129,8 +194,9 @@
 		606677B0286E766D0035878E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				606677B5286E76B60035878E /* HomeViewController.swift */,
-				606677B6286E76B60035878E /* HomeViewController.xib */,
+				602AFA1E28736470006868C7 /* Presenter */,
+				602AFA1D28736466006868C7 /* View */,
+				602AFA1C2873645F006868C7 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -248,19 +314,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				606677A9286E74810035878E /* PlaylistItemsModel.swift in Sources */,
+				602AFA1628735FD0006868C7 /* NetworkError.swift in Sources */,
 				60667793286E5A700035878E /* ViewController.swift in Sources */,
+				602AFA2328736738006868C7 /* HomePresenter.swift in Sources */,
 				606677BB286E76CC0035878E /* VideosViewController.swift in Sources */,
 				606677A4286E6AC20035878E /* PlaylistModel.swift in Sources */,
 				606677BF286E76D80035878E /* PlaylistsViewController.swift in Sources */,
+				602AFA1828735FDD006868C7 /* RequestModel.swift in Sources */,
 				606677C3286E76E60035878E /* ChannelViewController.swift in Sources */,
 				6066778F286E5A700035878E /* AppDelegate.swift in Sources */,
 				606677A6286E6F270035878E /* VideoModel.swift in Sources */,
 				606677B7286E76B60035878E /* HomeViewController.swift in Sources */,
+				602AFA21287364A1006868C7 /* HomeProvider.swift in Sources */,
 				60667791286E5A700035878E /* SceneDelegate.swift in Sources */,
+				602AFA1428735FC9006868C7 /* ServiceLayer.swift in Sources */,
 				606677C7286E76EF0035878E /* AboutViewController.swift in Sources */,
 				606677AF286E755D0035878E /* MainViewController.swift in Sources */,
 				606677AA286E74810035878E /* ChannelModel.swift in Sources */,
 				606677AD286E75480035878E /* RootPageViewController.swift in Sources */,
+				602AFA1B2873602C006868C7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +516,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
