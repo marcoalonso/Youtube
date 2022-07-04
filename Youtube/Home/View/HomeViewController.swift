@@ -15,7 +15,11 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //Este closure manda llamar algo que se ejecuta en 2 plano
+        Task {
+            //Toma la instancia del presenter y manda llamar al metodo
+            await presenter.getHomeObjects()
+        }
     }
 
 

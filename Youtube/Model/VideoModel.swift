@@ -41,6 +41,8 @@ struct VideoModel: Decodable {
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             
+            //Validar que el id sea del tipo objeto o string
+            
             self.kind = try container.decode(String.self, forKey: .kind)
             
             if let id = try? container.decode(VideoId.self, forKey: .id){
@@ -74,9 +76,6 @@ struct VideoModel: Decodable {
             
             
         }
-        
-        
-        
         
         struct VideoId: Decodable{
             let kind : String

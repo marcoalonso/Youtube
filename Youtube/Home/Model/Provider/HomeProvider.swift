@@ -20,7 +20,7 @@ class HomeProvider: HomeProviderProtocol {
     //Se comunicará con la capa de servicio
     func getVideos(searchString : String, channelId: String ) async throws -> VideoModel {
         //a quien voy a consultar y que tipos de datos me va a traer
-        var queryParams: [String: String] = ["part":"snippet"]
+        var queryParams: [String: String] = ["part":"snippet", "type": "video"]
         //si enviaste algo agregalo, si no no agregues nada.
         if !channelId.isEmpty {
             queryParams["channelId"] = channelId
