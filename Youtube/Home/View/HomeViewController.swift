@@ -27,7 +27,8 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeViewProtocol {
     func getData(list: [[Any]]) {
-        print("list: ",list)
+        //Tenemos 4 objetos de la VC principal
+        print("list: ",list.count)
     }
     
     

@@ -28,25 +28,50 @@ class HomePresenter  {
     func getHomeObjects() async {
         objectList.removeAll() //en caso que ya se haya consumido
         
+        async let channel = try await provider.getChannel(channelId: Constants.channelId).items
+        async let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
+        async let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
+
+        
         //Cuandos se hará una consulta asincrona el metodo tiene que se async
         do {
-//            let channel = try await provider.getChannel(channelId: Constants.channelId).items
-            let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
-//            let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
-//
-            let playlistItems = try await provider.getPlaylistsItems(playlistId: playlist.first?.id ?? "" ).items
+            //await espere a que cada una de las llamadas este lista para ser asignada a las variables
+            let (responseChannel, responsePlaylist, responseVideos) = await (try channel, try playlist, try videos)
             
+            //Index 0
+            objectList.append(responseChannel)
+            
+            if let playlistID = responsePlaylist.first?.id, let playlistItems = await getPlaylistItems(playlistId: playlistID){
+                //Agregarlo al listado Index 1
+                objectList.append(playlistItems.items)
+            }
             //Se necesita el orden de pintado en UI
-//            objectList.append(channel)
             
-//            objectList.append(playlistItems)
-//            objectList.append(videos)
-            objectList.append(playlist)
-            print(playlist.count)
-//
+            //Index 2
+            objectList.append(responseVideos)
+            
+            //Index 3
+            objectList.append(responsePlaylist)
+            
+            
+            delegate?.getData(list: objectList)
+
         }catch {
             print("Error al obtener videos :\(error.localizedDescription)")
         }
         
     }
+    
+    
+    func getPlaylistItems(playlistId: String) async -> PlaylistItemsModel? {
+        do {
+            let playlistItems = try await provider.getPlaylistsItems(playlistId: playlistId)
+            return playlistItems
+        }catch {
+            print("Error al obtener videos del playlist :\(error.localizedDescription)")
+            return nil
+        }
+    }
+    
+    
 }
