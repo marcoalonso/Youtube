@@ -1,0 +1,55 @@
+{
+    "kind": "youtube#channelListResponse",
+    "etag": "zgt05-tJhvawMuy6Ojo7224LWrI",
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#channel",
+            "etag": "by4Wcjhd2jss2FOsNH_QttRXuwE",
+            "id": "UCknu6vH4a8tXLFpM_uQ-hBA",
+            "snippet": {
+                "title": "Marco Alonso",
+                "description": "",
+                "publishedAt": "2019-12-21T06:45:51.815734Z",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/ytc/AKedOLRCU7F0Qszfd3mQj_fM69GHFqai_roetaJNQoTkZT4=s88-c-k-c0x00ffffff-no-rj",
+                        "width": 88,
+                        "height": 88
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/ytc/AKedOLRCU7F0Qszfd3mQj_fM69GHFqai_roetaJNQoTkZT4=s240-c-k-c0x00ffffff-no-rj",
+                        "width": 240,
+                        "height": 240
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/ytc/AKedOLRCU7F0Qszfd3mQj_fM69GHFqai_roetaJNQoTkZT4=s800-c-k-c0x00ffffff-no-rj",
+                        "width": 800,
+                        "height": 800
+                    }
+                },
+                "localized": {
+                    "title": "Marco Alonso",
+                    "description": ""
+                }
+            },
+            "statistics": {
+                "viewCount": "7354",
+                "subscriberCount": "91",
+                "hiddenSubscriberCount": false,
+                "videoCount": "114"
+            },
+            "brandingSettings": {
+                "channel": {
+                    "title": "Marco Alonso"
+                },
+                "image": {
+                    "bannerExternalUrl": "https://yt3.ggpht.com/bVN3Skus6CwsgKmyCcFJAWzxXWdpvIeLk3AAydm7SOkX2HU9qYH9odQmSjjg2XsqANpBlrtdHg"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "8PPGDQ0Lisbor0TRAjr7chB07IQ",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+        "totalResults": 6,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "Jf_E9OVt5tUM8_CWetH7lvTHbnk",
+            "id": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
+            "snippet": {
+                "publishedAt": "2022-07-04T22:58:56Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Notas App usando Realm",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "localized": {
+                    "title": "Notas App usando Realm",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 5
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "kD8cmqbY1I-z99zwUTlW0lRTZO0",
+            "id": "PLaXVvUVtO7VsA1-kJ-UcS9FvrpSAa3mHt",
+            "snippet": {
+                "publishedAt": "2022-07-04T22:55:38Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Contactos App",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4NX4GDD7reY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4NX4GDD7reY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4NX4GDD7reY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "localized": {
+                    "title": "Contactos App",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 5
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "aB6MHPMkyl8Q5n1yHstg-u_D-yQ",
+            "id": "PLaXVvUVtO7VsRu3cGNLV731Hh-RiKiUMh",
+            "snippet": {
+                "publishedAt": "2022-07-04T22:53:49Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Mapas App",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "localized": {
+                    "title": "Mapas App",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 3
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "BcxkXIreyYgNCACE6hZwlc_FjBE",
+            "id": "PLaXVvUVtO7VuD9MBsNKGNSo8afmsGnNjb",
+            "snippet": {
+                "publishedAt": "2022-07-04T22:52:38Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Wikisearch App",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jcEa1hcOzLc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jcEa1hcOzLc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jcEa1hcOzLc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jcEa1hcOzLc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "localized": {
+                    "title": "Wikisearch App",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 2
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "GdA_SiU-d5-PS_6nqrdkwRR_iqA",
+            "id": "PLaXVvUVtO7VtetqTVKMPU4kD2Xtwz00YT",
+            "snippet": {
+                "publishedAt": "2022-07-04T20:12:04Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Pokedex App",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "localized": {
+                    "title": "Pokedex App",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 4
+            }
+        }
+    ]
+}

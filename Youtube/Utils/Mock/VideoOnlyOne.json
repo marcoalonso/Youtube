@@ -1,0 +1,77 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "1qvGbpvOU_TtdAZHppZFsc4bga8",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "-toaPAzuxM9VhMCO2DHUd2nK2lQ",
+            "id": "130JmyEWquM",
+            "snippet": {
+                "publishedAt": "2022-06-14T03:30:58Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Filtrando elementos de una UITableView utilizando un UISearchbar en iOS  | Pokedex App (Parte 4)",
+                "description": "En este video aprenderás a implementar una #uisearchbar  para filtrar elementos de un #uitableview \n\nParte 1: https://youtu.be/Uokamj2WtxU\nParte 2: https://youtu.be/XffckVsKyY0\nParte 3: https://youtu.be/BqE2_hmfx7w\n\n\nLink al repositorio :) \n\nhttps://github.com/marcoalonso/Pokedex",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/130JmyEWquM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/130JmyEWquM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/130JmyEWquM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "categoryId": "22",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Filtrando elementos de una UITableView utilizando un UISearchbar en iOS  | Pokedex App (Parte 4)",
+                    "description": "En este video aprenderás a implementar una #uisearchbar  para filtrar elementos de un #uitableview \n\nParte 1: https://youtu.be/Uokamj2WtxU\nParte 2: https://youtu.be/XffckVsKyY0\nParte 3: https://youtu.be/BqE2_hmfx7w\n\n\nLink al repositorio :) \n\nhttps://github.com/marcoalonso/Pokedex"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT12M52S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            },
+            "status": {
+                "uploadStatus": "processed",
+                "privacyStatus": "public",
+                "license": "youtube",
+                "embeddable": true,
+                "publicStatsViewable": true,
+                "madeForKids": false
+            },
+            "statistics": {
+                "viewCount": "64",
+                "likeCount": "5",
+                "favoriteCount": "0",
+                "commentCount": "2"
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/130JmyEWquM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            },
+            "topicDetails": {
+                "topicCategories": [
+                    "https://en.wikipedia.org/wiki/Knowledge"
+                ]
+            },
+            "recordingDetails": {}
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}

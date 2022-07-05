@@ -13,17 +13,27 @@ protocol HomeViewProtocol : AnyObject{
 }
 
 class HomePresenter  {
-    var provider: HomeProvider
+    var provider: HomeProviderProtocol //conforma un protocolo
     weak var delegate : HomeViewProtocol?
     private var objectList: [[Any]] = []
     
-    init(delegate : HomeViewProtocol, provider: HomeProvider = HomeProvider()){
+    init(delegate : HomeViewProtocol, provider: HomeProviderProtocol = HomeProvider()){
+        //Algo que permita cambiar entre uno y otro
         self.provider = provider
         self.delegate = delegate
+        
+        //Los mocks son utiles para las pruebas unitarias, o cuando no tenemos los datos de la API
+        
+        #if DEBUG
+        if MockManager.shared.runAppWithMock {
+            self.provider = HomeProviderMock()
+        }
+        
+        #endif
     }
     
     
-    
+    @MainActor
     //se hara una instancia o metodo para obtener videos y se llamara a la otra capa
     func getHomeObjects() async {
         objectList.removeAll() //en caso que ya se haya consumido
