@@ -9,13 +9,16 @@ import Foundation
 
 
 protocol HomeViewProtocol : AnyObject{
-    func getData(list: [[Any]])
+    func getData(list: [[Any]], sectionTitleList: [String])
 }
 
 class HomePresenter  {
     var provider: HomeProviderProtocol //conforma un protocolo
     weak var delegate : HomeViewProtocol?
     private var objectList: [[Any]] = []
+    
+    //Saber el titulo de los sections
+    private var sectionTitleList: [String] = []
     
     init(delegate : HomeViewProtocol, provider: HomeProviderProtocol = HomeProvider()){
         //Algo que permita cambiar entre uno y otro
@@ -37,6 +40,7 @@ class HomePresenter  {
     //se hara una instancia o metodo para obtener videos y se llamara a la otra capa
     func getHomeObjects() async {
         objectList.removeAll() //en caso que ya se haya consumido
+        sectionTitleList.removeAll()
         
         async let channel = try await provider.getChannel(channelId: Constants.channelId).items
         async let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
@@ -50,21 +54,24 @@ class HomePresenter  {
             
             //Index 0
             objectList.append(responseChannel)
+            sectionTitleList.append("")
             
             if let playlistID = responsePlaylist.first?.id, let playlistItems = await getPlaylistItems(playlistId: playlistID){
                 //Agregarlo al listado Index 1
                 objectList.append(playlistItems.items)
+                sectionTitleList.append(responsePlaylist.first?.snippet.title ?? "")
             }
             //Se necesita el orden de pintado en UI
             
             //Index 2
             objectList.append(responseVideos)
+            sectionTitleList.append("Uploads")
             
             //Index 3
             objectList.append(responsePlaylist)
+            sectionTitleList.append("Created Playlists")
             
-            
-            delegate?.getData(list: objectList)
+            delegate?.getData(list: objectList, sectionTitleList: sectionTitleList)
 
         }catch {
             print("Error al obtener videos :\(error.localizedDescription)")
