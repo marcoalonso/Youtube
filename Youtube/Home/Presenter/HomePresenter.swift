@@ -57,8 +57,9 @@ class HomePresenter  {
             sectionTitleList.append("")
             
             if let playlistID = responsePlaylist.first?.id, let playlistItems = await getPlaylistItems(playlistId: playlistID){
-                //Agregarlo al listado Index 1
-                objectList.append(playlistItems.items)
+                
+                // Index 1
+                objectList.append(playlistItems.items.filter({$0.snippet.title != "Private video"}))
                 sectionTitleList.append(responsePlaylist.first?.snippet.title ?? "")
             }
             //Se necesita el orden de pintado en UI
