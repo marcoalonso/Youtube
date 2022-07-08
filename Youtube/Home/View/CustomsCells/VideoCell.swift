@@ -15,12 +15,22 @@ class VideoCell: UITableViewCell {
     @IBOutlet weak var videoName: UILabel!
     @IBOutlet weak var videImage: UIImageView!
     
+    //Closure cuando se presiona devuelve la info a la vista que incorpora esta celda
+    var didTapDotsButton: (()->Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         selectionStyle = .none
     }
+    
+    
+    @IBAction func dotsButtonTap(_ sender: UIButton) {
+        if let tap = didTapDotsButton { //como es opcional tengo que validar que alguien lo este utilizando
+            tap()
+        }
+    }
+    
 
     func configCell(model: Any){
         

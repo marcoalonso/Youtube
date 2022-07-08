@@ -80,15 +80,27 @@
                             <constraint firstAttribute="width" constant="13" id="zy7-NZ-3fA"/>
                         </constraints>
                     </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iC5-cf-NOQ">
+                        <rect key="frame" x="336" y="206.5" width="13" height="13"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="dotsButtonTaped:" destination="Ryi-dQ-L7c" eventType="touchUpInside" id="3dr-FY-Lq2"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="Ih4-Mr-cx2" firstAttribute="top" secondItem="99u-Ig-L6x" secondAttribute="top" id="GSg-gK-sY6"/>
                     <constraint firstItem="xec-3v-W1h" firstAttribute="width" secondItem="Ih4-Mr-cx2" secondAttribute="width" id="GnW-t1-TyE"/>
                     <constraint firstAttribute="bottom" secondItem="xec-3v-W1h" secondAttribute="bottom" constant="58" id="QDV-qH-P0C"/>
                     <constraint firstItem="VV7-1a-gft" firstAttribute="trailing" secondItem="Ih4-Mr-cx2" secondAttribute="trailing" id="R9r-CN-xNa"/>
+                    <constraint firstItem="iC5-cf-NOQ" firstAttribute="centerY" secondItem="svc-ZV-OOG" secondAttribute="centerY" id="SBt-7X-YQW"/>
+                    <constraint firstItem="iC5-cf-NOQ" firstAttribute="width" secondItem="svc-ZV-OOG" secondAttribute="width" id="bVW-K5-Udu"/>
                     <constraint firstItem="VV7-1a-gft" firstAttribute="height" secondItem="Ih4-Mr-cx2" secondAttribute="height" id="cxv-ef-nxZ"/>
                     <constraint firstItem="svc-ZV-OOG" firstAttribute="centerY" secondItem="xec-3v-W1h" secondAttribute="centerY" id="gQw-y6-eDX"/>
                     <constraint firstItem="xec-3v-W1h" firstAttribute="centerX" secondItem="Ih4-Mr-cx2" secondAttribute="centerX" id="gcL-tE-P25"/>
+                    <constraint firstItem="iC5-cf-NOQ" firstAttribute="centerX" secondItem="svc-ZV-OOG" secondAttribute="centerX" id="gcV-yn-opc"/>
+                    <constraint firstItem="iC5-cf-NOQ" firstAttribute="height" secondItem="svc-ZV-OOG" secondAttribute="height" id="gze-h1-SOm"/>
                     <constraint firstItem="VV7-1a-gft" firstAttribute="centerY" secondItem="Ih4-Mr-cx2" secondAttribute="centerY" id="ivm-Ol-N6s"/>
                     <constraint firstAttribute="trailing" secondItem="Ih4-Mr-cx2" secondAttribute="trailing" constant="13" id="jWo-yt-nLy"/>
                     <constraint firstItem="Ih4-Mr-cx2" firstAttribute="leading" secondItem="99u-Ig-L6x" secondAttribute="leading" constant="13" id="rpw-B1-unT"/>

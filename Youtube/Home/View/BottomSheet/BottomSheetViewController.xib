@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetViewController" customModule="Youtube" customModuleProvider="target">
             <connections>
+                <outlet property="optionContainer" destination="4Gt-So-RNE" id="wMe-oA-Llz"/>
+                <outlet property="overlayView" destination="6bf-mf-irK" id="kdo-ER-CzW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -145,7 +147,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="4Gt-So-RNE" secondAttribute="bottom" id="z5S-Du-QpW"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="131.8840579710145" y="286.60714285714283"/>
+            <point key="canvasLocation" x="130" y="291"/>
         </view>
     </objects>
     <resources>

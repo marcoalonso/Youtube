@@ -16,6 +16,8 @@ class PlaylistCell: UITableViewCell {
     @IBOutlet weak var videoTitle: UILabel!
     @IBOutlet weak var videoImage: UIImageView!
     
+    //Closure cuando se presiona devuelve la info a la vista que incorpora esta celda
+    var didTapDotsButton: (()->Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,6 +25,14 @@ class PlaylistCell: UITableViewCell {
         dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
         dotsImage.tintColor = UIColor(named: "whiteColor")
     }
+    
+    
+    @IBAction func dotsButtonTaped(_ sender: UIButton) {
+        if let tap = didTapDotsButton { //como es opcional tengo que validar que alguien lo este utilizando
+            tap()
+        }
+    }
+    
     
     func configCell(model: PlaylistModel.Item){
         videoTitle.text = model.snippet.title
