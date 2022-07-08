@@ -10,6 +10,7 @@ import Kingfisher
 
 class PlaylistCell: UITableViewCell {
 
+    @IBOutlet weak var dotsImage: UIImageView!
     @IBOutlet weak var videoCountOverlay: UILabel!
     @IBOutlet weak var videoCount: UILabel!
     @IBOutlet weak var videoTitle: UILabel!
@@ -19,6 +20,8 @@ class PlaylistCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
+        dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
+        dotsImage.tintColor = UIColor(named: "whiteColor")
     }
     
     func configCell(model: PlaylistModel.Item){
