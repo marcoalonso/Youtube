@@ -16,18 +16,25 @@ class BottomSheetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapOverlay(_:)))
+        overlayView.addGestureRecognizer(tapGesture)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        optionContainer.animateBottomSheet(show: true) {
+            
+        }
+    }
+    
+    @objc func didTapOverlay(_ sender: UITapGestureRecognizer){
+        //ocultar la vista
+        optionContainer.animateBottomSheet(show: false) {
+            self.dismiss(animated: false)
+        }
+        
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

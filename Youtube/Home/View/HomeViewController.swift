@@ -73,8 +73,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             
             playlistItemsCell.configCell(model: playlistItems[indexPath.row])
             //Implemento el closure lo que suceda en la celda
-            playlistItemsCell.didTapDotsButton = {
-                self.configButtonSheet()
+            playlistItemsCell.didTapDotsButton = { [weak self] in
+                self?.configButtonSheet()
             }
             return playlistItemsCell
             
@@ -83,8 +83,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 return UITableViewCell()
             }
             //Implemento el closure lo que suceda en la celda
-            videoCell.didTapDotsButton = {
-                self.configButtonSheet()
+            videoCell.didTapDotsButton = { [weak self] in
+                self?.configButtonSheet()
             }
             videoCell.configCell(model: videos[indexPath.row])
             return videoCell
@@ -93,7 +93,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             guard let playlistCell = tableView.dequeueReusableCell(withIdentifier: "\(PlaylistCell.self)", for: indexPath) as? PlaylistCell else {
                 return UITableViewCell()
             }
+            
             playlistCell.configCell(model: playlist[indexPath.row])
+            //Implemento el closure lo que suceda en la celda
+            playlistCell.didTapDotsButton = { [weak self] in
+                self?.configButtonSheet()
+            }
             return playlistCell
         }
         
