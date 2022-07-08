@@ -20,6 +20,11 @@ class ChannelCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        configView()
+    }
+    
+    func configView(){
+        selectionStyle = .none
         bellImage.image = UIImage(named: "bell")?.withRenderingMode(.alwaysTemplate)
         bellImage.tintColor = UIColor(named: "grayColor")
         

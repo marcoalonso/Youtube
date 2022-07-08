@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ajd-Z2-eHl">
-                        <rect key="frame" x="14" y="0.0" width="381" height="183"/>
+                        <rect key="frame" x="14" y="0.0" width="375" height="183"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tvT-lR-z4n">
                                 <rect key="frame" x="0.0" y="0.0" width="144" height="183"/>
@@ -27,22 +27,22 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Xs-eBl">
-                                <rect key="frame" x="154" y="0.0" width="227" height="183"/>
+                                <rect key="frame" x="154" y="0.0" width="221" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filtrando elementos de una UITableView utilizando un UISearchbar en iOS | Pokedex App (Parte 4)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-Gh-0Jk">
-                                        <rect key="frame" x="0.0" y="0.0" width="227" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="221" height="125"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" name="whiteColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marco Alonso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQS-zw-DZd">
-                                        <rect key="frame" x="0.0" y="125" width="227" height="29"/>
+                                        <rect key="frame" x="0.0" y="125" width="221" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" name="grayColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Vistas hace 4 semanas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9g-Iw-92g">
-                                        <rect key="frame" x="0.0" y="154" width="227" height="29"/>
+                                        <rect key="frame" x="0.0" y="154" width="221" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" name="grayColor"/>
                                         <nil key="highlightedColor"/>
@@ -52,7 +52,7 @@
                         </subviews>
                     </stackView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dots" translatesAutoresizingMaskIntoConstraints="NO" id="fjm-o9-3QB">
-                        <rect key="frame" x="377" y="0.0" width="18" height="18"/>
+                        <rect key="frame" x="371" y="0.0" width="18" height="18"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="18" id="Ix9-w4-kVU"/>
                             <constraint firstAttribute="width" constant="18" id="ZiQ-8W-kul"/>
@@ -63,7 +63,7 @@
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="Ajd-Z2-eHl" secondAttribute="bottom" constant="14" id="29b-ld-lxN"/>
                     <constraint firstItem="Ajd-Z2-eHl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6LK-jY-NaQ"/>
-                    <constraint firstAttribute="trailing" secondItem="Ajd-Z2-eHl" secondAttribute="trailing" constant="24" id="9HB-Sk-3vB"/>
+                    <constraint firstAttribute="trailing" secondItem="Ajd-Z2-eHl" secondAttribute="trailing" constant="30" id="9HB-Sk-3vB"/>
                     <constraint firstItem="Ajd-Z2-eHl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="O4B-Bv-xdz"/>
                     <constraint firstItem="fjm-o9-3QB" firstAttribute="top" secondItem="aSf-Gh-0Jk" secondAttribute="top" id="tAP-2E-Rgf"/>
                     <constraint firstItem="fjm-o9-3QB" firstAttribute="trailing" secondItem="aSf-Gh-0Jk" secondAttribute="trailing" id="woX-IJ-HpF"/>

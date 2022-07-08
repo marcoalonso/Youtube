@@ -19,6 +19,7 @@ class VideoCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        selectionStyle = .none
     }
 
     func configCell(model: Any){
@@ -29,6 +30,7 @@ class VideoCell: UITableViewCell {
         if let video = model as? VideoModel.Item {
             if let imageUrl = video.snippet?.thumbnails.medium?.url, let url = URL(string: imageUrl) {
                 videImage.kf.setImage(with: url)
+                videImage.layer.cornerRadius = 10
             }
             videoName.text = video.snippet?.title ?? ""
             channelName.text = video.snippet?.channelTitle ?? ""
@@ -38,6 +40,7 @@ class VideoCell: UITableViewCell {
         } else if let playlistItems = model as? PlaylistItemsModel.Item {
             if let imageUrl = playlistItems.snippet.thumbnails.medium?.url, let url = URL(string: imageUrl){
                 videImage.kf.setImage(with: url)
+                videImage.layer.cornerRadius = 10
             }
             videoName.text = playlistItems.snippet.title
             channelName.text = playlistItems.snippet.channelTitle
