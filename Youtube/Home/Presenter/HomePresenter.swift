@@ -35,7 +35,7 @@ class HomePresenter  {
         #endif
     }
     
-    
+    //Las llamadas que se hacen al servicio, cuando venga la respuesta y vaya a actualizar el UI es pasarlo por el main treath
     @MainActor
     //se hara una instancia o metodo para obtener videos y se llamara a la otra capa
     func getHomeObjects() async {

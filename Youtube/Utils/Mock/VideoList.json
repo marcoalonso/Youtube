@@ -1,0 +1,1712 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "W4mNWK8EOItUuKqcO7kwl1fpHPE",
+    "nextPageToken": "CDIQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 115,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uheBfvEoScpbommRm9J4lhsonPA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "v27Sh8VZFXE"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-23T02:59:11Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Consumir API y decodificar un JSON en una Aplicacion de Noticias en ios con swift",
+                "description": "En este video aprenderás a consumir una API y decodificar o parsear un #JSON para extraer la información que necesites y ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/v27Sh8VZFXE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/v27Sh8VZFXE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/v27Sh8VZFXE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-23T02:59:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6Nrdx3QhxqzCDEOxqOG6m-eh-SQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "U3GcxgeGsGM"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-18T17:35:22Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Consumo de APIs Mediante UITable View &amp; Tab Bar Controller App Lista Apis",
+                "description": "Consumo de APIs Mediante UITable View & Tab Bar Controller App Lista Apis Clase virtual de Programación Móvil II ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/U3GcxgeGsGM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/U3GcxgeGsGM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/U3GcxgeGsGM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-18T17:35:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LKytYXTOPKALUah78UXecsOJjY0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "B1ul9gZ_Ytc"
+            },
+            "snippet": {
+                "publishedAt": "2020-11-04T01:12:18Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Introduccion a Core Data Contactos App parte 1",
+                "description": "Clase virtual Programación Móvil II iOS with swift y xcode, Instituto Tecnológico de Morelia. Explicacion del funcionamiento de ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/B1ul9gZ_Ytc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/B1ul9gZ_Ytc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/B1ul9gZ_Ytc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-11-04T01:12:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hNJ1KN-iql3zZ6ghjLmb4Pe2GkE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-HbA1nFl-HE"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-28T21:58:56Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Foros especializados informática para administración",
+                "description": "Clase virtual de informática para la administración 22-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-HbA1nFl-HE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-HbA1nFl-HE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-HbA1nFl-HE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-28T21:58:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "n8YtdkthPXFWJzJfsR9u0YPTXV0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_J3VXn-jN6Q"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-17T22:14:26Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Enviar parámetro de un ViewController a otro y navegacion entre ventanas con NavigationController",
+                "description": "Aprende cómo navegar de una vista a otra utilizando un #segue, y a mandar parámetros entre dos viewcontroller implementando ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_J3VXn-jN6Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_J3VXn-jN6Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_J3VXn-jN6Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-17T22:14:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aQt-mH-xHLHxahf6VyTjHAG7BmM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mwFu3SiqESM"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-17T22:44:24Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Como crear una UIAlertController en swift y xcode",
+                "description": "Aprende a crear una simple #UIAlertController utilizando un #BarButtonITem dentro de un #NavigationController, aprende a ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mwFu3SiqESM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mwFu3SiqESM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mwFu3SiqESM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-17T22:44:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JrSrlgEMjx6mb39yGzkFkdBF1mI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KqhUzbW9F2M"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-14T03:40:24Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Guardar, Leer y Borrar datos desde Core Data App Contactos parte 4",
+                "description": "Clase virtual de Programación Móvil II 13-Mayo-2021 Instituto Tecnológico de Morelia. Falta editar y toques finales (mejorar la UI)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KqhUzbW9F2M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KqhUzbW9F2M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KqhUzbW9F2M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-14T03:40:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JQE8qlAm-RO0P9zLNdEbV3-bDEc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VfHKmJHM0O0"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-13T13:50:39Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creación de UITableView (repaso)",
+                "description": "Instituto Tecnológico de Morelia. Clase virtual de Programación Móvil II 12-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VfHKmJHM0O0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VfHKmJHM0O0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VfHKmJHM0O0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-13T13:50:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vIBL-u8sWFF2wMgnkXpqXd5EW_g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Uokamj2WtxU"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-14T02:17:43Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Consumiendo una API con URLSession en iOS con swift  | Pokedex App (Parte 1)",
+                "description": "En este video aprenderás a consumir los datos de la #API: https://pokedex-bb36f.firebaseio.com/pokemon.json para mostrar en ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Uokamj2WtxU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-14T02:17:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3V6pkQ26Gf5sE-h3rJk6b1l_pwQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "smELX6vtnlU"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-30T18:11:21Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "App Contactos By Arturo Chavez",
+                "description": "Aplicación de Contactos realizada por el alumno Arturo Ivan Chavez de la materia de Programación Móvil II del Instituto ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/smELX6vtnlU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/smELX6vtnlU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/smELX6vtnlU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-30T18:11:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TfSOIUo3XmsiSf62aOsbXFyG1B8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "25bq4NytLqo"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-24T23:26:57Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creación de una UITableView básica en Xcode",
+                "description": "Clase virtual de Programación Móvil II 24-Marzo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/25bq4NytLqo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/25bq4NytLqo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/25bq4NytLqo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-24T23:26:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "859xU9bnxiJGa6NIOuMxRzKpG4s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "93YQTmFSxzw"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-27T15:38:06Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Diseñar una celda personalizada de un UITAbleView en Xcode y Swift",
+                "description": "Uso de #StackViews, #UIviews y #Constrains para crear una celda personalizada de una #UITableView en #Xcode ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/93YQTmFSxzw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/93YQTmFSxzw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/93YQTmFSxzw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-27T15:38:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6YiU_7StMLhuEhB8Eo9MqJ23TVk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EV-KUjfWGRE"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-24T19:19:21Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Instalando y configurando Firebase mediante cocoapods en App Chat parte 3",
+                "description": "Clase virtual de Programación Móvil II 24-Mayo-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EV-KUjfWGRE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EV-KUjfWGRE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EV-KUjfWGRE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-24T19:19:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mxsCblcH9by199nTLsQs-467Plc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jNm_GzL6nr0"
+            },
+            "snippet": {
+                "publishedAt": "2022-05-20T19:38:52Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Como usar Realm en iOS con swift con una app de Notas (1ra parte)",
+                "description": "En ese video aprenderás a importar a tu proyecto el modulo de #realm utilizando #cocoapods, en esta 1ra parte crearemos el ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-05-20T19:38:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ameU0pY3Xu5RjoObVwhhQInDOJk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SMDmVGCmr-4"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-19T14:23:30Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Diseñando Loggin &amp; Register Screen e Instalando Cocoapods en Mac App Chat Parte 1",
+                "description": "Clase virtual de Programación Móvil II 19-Mayo-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SMDmVGCmr-4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SMDmVGCmr-4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SMDmVGCmr-4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-19T14:23:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DVz_qpG3Q2Aw7B88cxJtf2AbpGU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jF3wQsADoas"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-18T21:50:40Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "¿Cómo decodificar información de un objeto JSON en iOS con Swift?",
+                "description": "En este video aprenderás a extraer únicamente la información que necesites creando un \"modelo\" a partir de #struct utilizando el ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jF3wQsADoas/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jF3wQsADoas/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jF3wQsADoas/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-18T21:50:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ifRatHkRmVcXl1vDzgQ7nkm7pgY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zd1XNiRrhYA"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-25T14:08:00Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Registrando nuevos usuarios en Firebase y login con usuarios previamente creados App Chat parte 4",
+                "description": "Clase virtual de Programación Móvil II 25-Mayo-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zd1XNiRrhYA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zd1XNiRrhYA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zd1XNiRrhYA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-25T14:08:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uUVGKYHGdCYV9uQmX_WVYztcquc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EqzJCj5Yj4Q"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-28T22:05:03Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "CoreLocation con Mapkit y searchbar App Mapa parte 1",
+                "description": "Clase virtual de Programación Móvil II 28-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EqzJCj5Yj4Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-28T22:05:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iSvGLt2oQqvXDELjPeuVE5N0n_g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jLfh6RA8lPU"
+            },
+            "snippet": {
+                "publishedAt": "2020-11-18T23:16:52Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Introduccion a Git Hub y decodificacion JSON Data",
+                "description": "Clase virtual Programación Móvil II iOS with swift y xcode, Instituto Tecnológico de Morelia. Introducción a Git Hub, repositorios ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jLfh6RA8lPU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jLfh6RA8lPU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jLfh6RA8lPU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-11-18T23:16:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wCwmF7prjMXiDFoYtU1GD8Z82ec",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KAWk3r-3nj0"
+            },
+            "snippet": {
+                "publishedAt": "2022-05-12T17:16:20Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "App de Tareas por hacer (ToDoList) en iOS con swift y core data",
+                "description": "En este video aprenderás a utilizar #coredata de una manera simple y sencilla para hacer un #CRUD de tareas por realizar, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KAWk3r-3nj0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KAWk3r-3nj0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KAWk3r-3nj0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-05-12T17:16:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1SGnHs640z0U3HFu6C3iCYqzFPs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Y-O8RXIaq0k"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-18T01:13:00Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Cómo utilizar una WebView o WKWebView en iOS con swift",
+                "description": "Aprende a implementar una #WebView o #WKWebView en #iOS con esta sencilla aplicacion.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Y-O8RXIaq0k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Y-O8RXIaq0k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Y-O8RXIaq0k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-18T01:13:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Z_uBmGv9KBOTYgc6CKycOR_kBSQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OKTh-GMs1PI"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-01T20:02:55Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Editar contacto usando Core Data",
+                "description": "Editar contacto usando core data, uso de ImagePickerController para seleccionar una imagen. #Xcode #Swift #ITM.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OKTh-GMs1PI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OKTh-GMs1PI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OKTh-GMs1PI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-01T20:02:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BcWJPDGbSRKBzmWJDmH7IyTgltQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "H98IjXteId4"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-25T15:52:45Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creando un delegado e implementando protocolo para actualizar UI con Dispatchqueue App Clima parte 5",
+                "description": "Clase virtual de Programación Móvil II 23-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H98IjXteId4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H98IjXteId4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H98IjXteId4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-25T15:52:45Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3EaH3egS6iUbsF6gWuDLYBLWE_c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bCkIRPGIf0U"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-09T21:23:03Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Implementando la libreria de Youtube ios player helper y UITextView en xcode.",
+                "description": "Clase virtual de Programación Móvil II 09-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bCkIRPGIf0U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bCkIRPGIf0U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bCkIRPGIf0U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-09T21:23:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uQ35nqj_wYl55e6NpGbCQ0mbQv8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zCi1iR-8MFQ"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-28T01:20:35Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creando filtros avanzados en excel (10 ejercicios)",
+                "description": "Clase virtual de informática para la administración 27-Mayo-2021 Instituto Tecnológico de Morelia. #ITMORELIA #PONYS ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zCi1iR-8MFQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zCi1iR-8MFQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zCi1iR-8MFQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-28T01:20:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Y04lmChAVdcbVWExV2sUg7E1ZW8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "1DK5ham8Pjc"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-17T20:52:47Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "App WikiSearch By Jorge Baltazar",
+                "description": "App WikiSearch realizado por el alumno Jorge Luis Baltazar de la materia de Programación Móvil 2. Se utiliza la API de ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1DK5ham8Pjc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1DK5ham8Pjc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1DK5ham8Pjc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-17T20:52:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5_TT1MREXsmN8_oOFa3lOK8Gl9U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kekRQ2mouio"
+            },
+            "snippet": {
+                "publishedAt": "2020-10-20T03:26:38Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Introduccion a la materia. Clase virtual Programación Móvil II iOS with swift y xcode  12",
+                "description": "Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kekRQ2mouio/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kekRQ2mouio/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kekRQ2mouio/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-10-20T03:26:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "v8-auuUt5GoL2N7u1OTrE04LgUs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "U73gdoXODTE"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-03T15:43:24Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Iniciar sesión con Google y guardar sesión de usuario con user defaults App Chat parte 8",
+                "description": "Clase virtual de Programación Móvil II 02-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/U73gdoXODTE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/U73gdoXODTE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/U73gdoXODTE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-03T15:43:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2xcPEKDZEVlByx9dg2IonBpprzk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ruZtRpaWy_w"
+            },
+            "snippet": {
+                "publishedAt": "2022-05-22T20:41:12Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Editar y eliminar datos con #Realm en ios con swift, creando una App de Notas (5ta y ultima parte)",
+                "description": "En este video aprenderás a editar y eliminar objetos almacenados en el dispositivo utilizando #Realm App Notas en #ios con ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-05-22T20:41:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xuLI9ZvcKz3u6612Z26aIdSt-NA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wxWGjfdbH_g"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-17T20:59:28Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Reproducir sonido en Swift con AVFundation App Instumento Musical",
+                "description": "Clase virtual de Programación Móvil II 17-Mayo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wxWGjfdbH_g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wxWGjfdbH_g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wxWGjfdbH_g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-17T20:59:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NH6N7oz7CNIKtIF0JcgvDBEx3wY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fRWk4_pjzlI"
+            },
+            "snippet": {
+                "publishedAt": "2021-01-19T15:44:51Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Problema con los segues al crear Navigation Controller &amp; Tab Bar Controller",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fRWk4_pjzlI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fRWk4_pjzlI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fRWk4_pjzlI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-01-19T15:44:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KqjsdF_GIp7aMNtXfuDOVBxszFo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SspWGg9QUlQ"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-14T23:03:57Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Protocolos y delegados en Swift &amp; App Notas parte 2",
+                "description": "Clase virtual de Programación Móvil II 14-Abril-2021 Instituto Tecnológico de Morelia. ¿Qué son los protocolos y delegados?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SspWGg9QUlQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SspWGg9QUlQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SspWGg9QUlQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-14T23:03:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6awJnLq4eYIzgxQ1ewaY8evwUwI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ebj4Si_4YLc"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-10T02:04:02Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "TextFields, Buttons, Labels, sumando 2 numeros",
+                "description": "Clase virtual de Programación Móvil II 05-Marzo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ebj4Si_4YLc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ebj4Si_4YLc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ebj4Si_4YLc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-10T02:04:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dtBDJTvBX4jXdb14Ubjl2hholhk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5FYOzi8K-mY"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-16T15:04:14Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Implementando un DropDown Menú en iOS",
+                "description": "Clase virtual de Programación Móvil II 16-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5FYOzi8K-mY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5FYOzi8K-mY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5FYOzi8K-mY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-16T15:04:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KtdJh-ZvBn0ArfnYZkLHrc42mUY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4DHFzeQmDpU"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-13T17:52:06Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creación de una UITable View App Notas parte 1 CRUD con user defaults",
+                "description": "Clase virtual de Programación Móvil II 13-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4DHFzeQmDpU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4DHFzeQmDpU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4DHFzeQmDpU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-13T17:52:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HhAGl2CaXuOpcjvrAlVk7jYmvxc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "92qIkqfWlvw"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-06T16:27:18Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Antivirus y tipos de virus más comunes",
+                "description": "Clase virtual de informática para la administración 29-Abril-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/92qIkqfWlvw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/92qIkqfWlvw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/92qIkqfWlvw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-06T16:27:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "m8a9-f3ZUs-19esRZbVAqe91rNU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CkkMnHVyzNU"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-23T00:55:19Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Creando un Onboarding para cualquier App parte 1",
+                "description": "Clase virtual de Programación Móvil II 21-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CkkMnHVyzNU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CkkMnHVyzNU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CkkMnHVyzNU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-23T00:55:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IpHr752ktLGTdSQDOVP2BEphvak",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CqGtVSSKIM8"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-05T03:22:29Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Bienvenida Informatica para la Administracion 2021",
+                "description": "Clase virtual de informática para la administración 03-Marzo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CqGtVSSKIM8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CqGtVSSKIM8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CqGtVSSKIM8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-05T03:22:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cx63qfFjjB-h-miRodio9UDa4EY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2reLPYEByLE"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-09T22:42:43Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Agregando UITextField en alerta App Contactos parte 2",
+                "description": "Clase virtual de Programación Móvil II 07-Mayo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2reLPYEByLE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2reLPYEByLE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2reLPYEByLE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-09T22:42:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PHHKJOs1srgRiTZcY8naVn7jXIg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yLpOnGBHa4A"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-09T21:19:48Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Reproducir videos de manera local en una app e implementando Safari Services en tu app",
+                "description": "Clase virtual de Programación Móvil II 07-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yLpOnGBHa4A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yLpOnGBHa4A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yLpOnGBHa4A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-09T21:19:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aQO1cVpfd8imR3x1ig9dpPEBm9w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "AYc5JChlPAg"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-03T18:59:36Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Diccionarios, Ciclos For- While &amp; Funciones",
+                "description": "Programación Móvil II, Instituto Tecnológico de Morelia, semestre Marzo-Julio 2021.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AYc5JChlPAg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AYc5JChlPAg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AYc5JChlPAg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-03T18:59:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mHP1jjeJHv0dJ3x7duOyqng8aGI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "q_Zd_ItTG10"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-10T23:34:15Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Calculadora IMC parte 1 y envio de parámetros usando segue",
+                "description": "Clase virtual de Programación Móvil II 10-Marzo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/q_Zd_ItTG10/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/q_Zd_ItTG10/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/q_Zd_ItTG10/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-10T23:34:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_KFPkP7P2PZrZqXE1a7-5Rnox2Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "awwGAR9BN2g"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-14T13:57:07Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Crear un CollectionView Cell App Videos",
+                "description": "Clase virtual de Programación Móvil II 14-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/awwGAR9BN2g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/awwGAR9BN2g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/awwGAR9BN2g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-14T13:57:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "482OnOILYkhLHTpie1Ryx0TaYWs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "H-_buAe1SW4"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-01T17:11:08Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Como subir y descargar una imagen en Firebase EJEMPLO y custom UITableViewCell App Chat parte 7",
+                "description": "Clase virtual de Programación Móvil II 01-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H-_buAe1SW4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H-_buAe1SW4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H-_buAe1SW4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-01T17:11:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "EVhcYwOVVjv65Qm8b2o6lTuftCc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rPUjijX6gxc"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-28T00:45:43Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Escribir datos en Firestore y cerrar sesión de usuario App Chat parte 5",
+                "description": "Clase virtual de Programación Móvil II 26-Mayo-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rPUjijX6gxc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rPUjijX6gxc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rPUjijX6gxc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-28T00:45:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Fdxnbv7Ep16UNQXqVZe6tpDk5H0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qWtzrJCqkqY"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-07T13:57:48Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "VideoPlayer reproducir videos dentro de una APP",
+                "description": "Clase virtual de Programación Móvil II 07-Junio-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qWtzrJCqkqY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qWtzrJCqkqY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qWtzrJCqkqY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-07T13:57:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Vyy7KTIUK28QZ4q_AUYoUEEjPpo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jPWAObr-_e8"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-14T22:54:23Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Correo electrónico Gmail y Outlook Informática para administración",
+                "description": "Clase virtual de informática para la administración, correo electrónico. Instituto Tecnológico de Morelia Marzo 2021.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jPWAObr-_e8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jPWAObr-_e8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jPWAObr-_e8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-14T22:54:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PioDXk0ZZuHgV0Y65n5c8bedmhQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TvjN1GAq8NQ"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-12T14:26:04Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Introducción a Core Data en iOs Mini App &quot;ExampleCoreData&quot;",
+                "description": "Clase virtual de Programación Móvil II 12-Mayo-2021 Instituto Tecnológico de Morelia. Presentado por: Marco Alonso Rodriguez.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TvjN1GAq8NQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TvjN1GAq8NQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TvjN1GAq8NQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-12T14:26:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6QA6tmSr3mF9GYwhqbThPw0ki-8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pF9c6JaWhRk"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-01T17:08:49Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Implementar IQKeyboardManager empujar vista arriba de teclado App Chat parte 6",
+                "description": "Clase virtual de Programación Móvil II 31-Mayo-2021 Instituto Tecnológico de Morelia. #Xcode #Swift #iOS14 #ITMORELIA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pF9c6JaWhRk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pF9c6JaWhRk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pF9c6JaWhRk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-01T17:08:49Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lwpNoFlSe8ctRse-QRXkM0qESmA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G14srbygJp8"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-27T01:17:31Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Crear diferentes Macros en Excel",
+                "description": "Clase virtual de informática para la administración 26-Mayo-2021 Instituto Tecnológico de Morelia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G14srbygJp8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G14srbygJp8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G14srbygJp8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-27T01:17:31Z"
+            }
+        }
+    ]
+}

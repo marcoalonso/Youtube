@@ -31,7 +31,7 @@
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="N9A-Ss-TcI">
                             <rect key="frame" x="20" y="0.0" width="374" height="250"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-Lj-GNf">
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-Lj-GNf">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0Od-OZ-A2j">
@@ -42,11 +42,25 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guardar para ver despues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbu-X2-QoP">
-                                            <rect key="frame" x="35" y="0.0" width="339" height="43.5"/>
+                                            <rect key="frame" x="35" y="0.0" width="294" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" name="whiteColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSN-g2-WYk">
+                                            <rect key="frame" x="339" y="0.0" width="35" height="43.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="35" id="HmR-uq-ed8"/>
+                                            </constraints>
+                                            <color key="tintColor" name="whiteColor"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title=" ">
+                                                <backgroundConfiguration key="background" image="arrow.forward" catalog="system"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="shareButton:" destination="-1" eventType="touchUpInside" id="bk5-ak-apP"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </stackView>
@@ -152,6 +166,7 @@
     </objects>
     <resources>
         <image name="arrow.down.app" catalog="system" width="128" height="114"/>
+        <image name="arrow.forward" catalog="system" width="128" height="98"/>
         <image name="arrowshape.turn.up.right" catalog="system" width="128" height="106"/>
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="plus.square.on.square" catalog="system" width="128" height="113"/>

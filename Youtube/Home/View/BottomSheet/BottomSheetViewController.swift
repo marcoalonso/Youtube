@@ -35,6 +35,9 @@ class BottomSheetViewController: UIViewController {
         
     }
 
-
+    @IBAction func shareButton(_ sender: Any) {
+        print("Compartir ...")
+    }
+    
 
 }
