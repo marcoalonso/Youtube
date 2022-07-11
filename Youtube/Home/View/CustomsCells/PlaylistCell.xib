@@ -112,6 +112,7 @@
             <color key="backgroundColor" name="backgroundColor"/>
             <connections>
                 <outlet property="dotsImage" destination="svc-ZV-OOG" id="k51-6t-x4s"/>
+                <outlet property="shadowView" destination="VV7-1a-gft" id="6YN-Pg-p8I"/>
                 <outlet property="videoCount" destination="yAD-7U-Xsx" id="niR-SM-uGq"/>
                 <outlet property="videoCountOverlay" destination="HVa-Zw-n5M" id="oVL-6U-oTu"/>
                 <outlet property="videoImage" destination="Ih4-Mr-cx2" id="Rku-2y-xwi"/>
@@ -123,7 +124,7 @@
     <resources>
         <image name="dots" width="256" height="256"/>
         <image name="maxresdefault" width="1280" height="720"/>
-        <image name="text.alignleft" catalog="system" width="32" height="32"/>
+        <image name="text.alignleft" catalog="system" width="128" height="100"/>
         <namedColor name="backgroundColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

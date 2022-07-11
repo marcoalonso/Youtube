@@ -10,6 +10,7 @@ import Kingfisher
 
 class PlaylistCell: UITableViewCell {
 
+    @IBOutlet weak var shadowView: UIView!
     @IBOutlet weak var dotsImage: UIImageView!
     @IBOutlet weak var videoCountOverlay: UILabel!
     @IBOutlet weak var videoCount: UILabel!
@@ -21,9 +22,14 @@ class PlaylistCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        configView()
+    }
+    
+    func configView(){
         selectionStyle = .none
-        dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
-        dotsImage.tintColor = UIColor(named: "whiteColor")
+        dotsImage.image = .dotsImage
+        dotsImage.tintColor = .whiteColor
+        shadowView.layer.cornerRadius = 12
     }
     
     
@@ -42,7 +48,7 @@ class PlaylistCell: UITableViewCell {
         let imageUrl = model.snippet.thumbnails.medium.url
         if let url = URL(string: imageUrl){
             videoImage.kf.setImage(with: url)
-            videoImage.layer.cornerRadius = 10
+            videoImage.layer.cornerRadius = 12
         }
     }
     
