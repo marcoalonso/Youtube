@@ -37,8 +37,18 @@ class HomeViewController: UIViewController {
         tableViewHome.delegate = self
         tableViewHome.dataSource = self
         tableViewHome.separatorColor = .clear
+        tableViewHome.contentInset = UIEdgeInsets(top: -15, left: 0, bottom: -80, right: 0)
     }
 
+    //Ocultar y mostrar el Navigation Bar ⇧
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        //se agrega una gestura
+        let pan = scrollView.panGestureRecognizer
+        //se identica la velocidad para mostrar u ocultar
+        let velocity = pan.velocity(in: scrollView).y
+        velocity < -25 ? navigationController?.setNavigationBarHidden(true, animated: true) : navigationController?.setNavigationBarHidden(false, animated: true)
+
+    }
 
 }
 

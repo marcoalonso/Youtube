@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: BaseViewController {
     
     //Crear una instancia del page
     var rootPageViewController: RootPageViewController!
@@ -16,8 +16,11 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //se manda llamar de la clase que hereda
+        configNavigationBar()
+        
+        //ocultar bar al hacer scroll, el problema es que no aparece de nuevo, para resolver eso lo haremos en el HomeVc con el método scrollViewDidScroll
+        navigationController?.hidesBarsOnSwipe = true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -26,6 +29,21 @@ class MainViewController: UIViewController {
             rootPageViewController = destination
             
         }
+    }
+    
+    override func dotsButtonPressed() {
+        configButtonSheet()
+    }
+    
+    override func magnifyButtonPressed() {
+        print("Botton magnifyButtonPressed desde MainVc")
+    }
+    
+    func configButtonSheet(){
+        //crear vc
+        let vc = BottomSheetViewController()
+        vc.modalPresentationStyle = .overCurrentContext
+        self.present(vc, animated: false)
     }
 
 }
@@ -36,3 +54,4 @@ extension MainViewController: RootPageProtocol {
     
     
 }
+
