@@ -1,153 +1,215 @@
 {
     "kind": "youtube#playlistItemListResponse",
-    "etag": "vOE7H0NE5_k1_YLtUp-pK_T8AgU",
+    "etag": "9CK2KagceYWxtz936R_nq-YqicU",
     "items": [
         {
             "kind": "youtube#playlistItem",
-            "etag": "yra-o0S-fBfiErtJDK1zdL2PU6Q",
-            "id": "UExUX09PYktaM0NwdU5FMHQ4ckNXa0FyZnBUZ2tKUDlsbS41NkI0NEY2RDEwNTU3Q0M2",
+            "etag": "VH62Celkg0mA8MOufo_ZGMDQw_o",
+            "id": "UExhWFZ2VVZ0TzdWdHNyaXM5TTduSFM5dDBWWE1oX3lRXy41NkI0NEY2RDEwNTU3Q0M2",
             "snippet": {
-                "publishedAt": "2022-03-11T03:37:53Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Manejo de Memoria ARC - Value Type y Reference Type - iOS - Swift 1/3",
-                "description": "Este es el primer video vide de una serie completa dónde explico en detalle todo lo relacionado al manejo de memoria ARC en el desarrollo de aplicaciones iOS con Swift. \nTe invito a ver la serie completa donde vas a estar viendo: ARC, Retain Cycle, Memory Leak entre otros.\n\nNo olvides dejar tus comentarios y regalarme un like, de esta forma me apoyas en seguir creando contenido.\n\nParte 2: Manejo de Memoria - ARC y Retain Cycle, Strong, Weak, Unowned - iOS\nhttps://bit.ly/3jJqhm5\n\nParte 3: Manejo de Memoria - ARC y Retain Cycle con Closures y Delegates - iOS\nhttps://bit.ly/3qmzrZM\n\n-- Timestamps --\n00:00 Introducción\n01:15 Memory \n02:31 Instancias almacenadas\n03:15 Exceso de uso de memoria\n04:28 Instancias huérfanas\n06:05 Reference Types\n06:38 Value Types\n07:16 Ejemplos de Value Types y Reference Types\n08:25 Dirección en memoria\n10:21 Dirección en memoria - Value Types\n12:27 Dirección en memoria - Reference Types\n15:27 Ejercicio en Xcode\n23:00 Debug Memory Graph\n25:01 Instancias de un Value Type\n26:17 Introducción la segunda parte de la explicación\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#ARC #ValueType #ReferenceType #iOSDevelopment #RetainCycle #MemoryLeak #MemoryManagement  #AutomaticReferenceCounting",
+                "publishedAt": "2022-07-04T22:59:10Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Como usar Realm en iOS con swift con una app de Notas (1ra parte)",
+                "description": "En ese video aprenderás a importar a tu proyecto el modulo de #realm utilizando #cocoapods, en esta 1ra parte crearemos el diseño para la app de notas en #ios con #swift\n\n\nParte 2: https://youtu.be/_Zg4nX3vwQ0\nParte 3: https://youtu.be/LUagJmZjaSo\nParte 4: https://youtu.be/heJiK2u86Ws\nParte 5: https://youtu.be/ruZtRpaWy_w\nCódigo completo de la app: https://drive.google.com/file/d/1Ra-zefkXZCNhprfO1VtqXauXj1LLlfke/view?usp=sharing",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jNm_GzL6nr0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuNE0t8rCWkArfpTgkJP9lm",
+                "channelTitle": "Marco Alonso",
+                "playlistId": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
                 "position": 0,
                 "resourceId": {
                     "kind": "youtube#video",
-                    "videoId": "BhM_dovPUmM"
+                    "videoId": "jNm_GzL6nr0"
                 },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+                "videoOwnerChannelTitle": "Marco Alonso",
+                "videoOwnerChannelId": "UCknu6vH4a8tXLFpM_uQ-hBA"
             },
             "contentDetails": {
-                "videoId": "BhM_dovPUmM",
-                "videoPublishedAt": "2021-10-26T05:00:04Z"
+                "videoId": "jNm_GzL6nr0",
+                "videoPublishedAt": "2022-05-20T19:38:52Z"
             }
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "4gMC5XdXUhMRwUYAteIL6iOxmzs",
-            "id": "UExUX09PYktaM0NwdU5FMHQ4ckNXa0FyZnBUZ2tKUDlsbS4yODlGNEE0NkRGMEEzMEQy",
+            "etag": "euYbArrUdyYSv0eGrKKj0Y-87-U",
+            "id": "UExhWFZ2VVZ0TzdWdHNyaXM5TTduSFM5dDBWWE1oX3lRXy4yODlGNEE0NkRGMEEzMEQy",
             "snippet": {
-                "publishedAt": "2022-03-11T03:38:10Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Manejo de Memoria ARC y Retain Cycle, Strong, Weak, Unowned - iOS - Swift 2/3",
-                "description": "En esta video te explico como funciona el Automatic Reference Counting y cómo se debe gestionar los reference types para evitar generar un Retain Cycle en swift. También aprende qué son referencias Strong, Weak y Unowned, y para qué se utilizan. Manejo de memoria ARC.\n\nNo olvides dejar tus comentarios y regalarme un like, de esta forma me apoyas en seguir creando contenido.\n\nParte 1: Manejo de Memoria - Value Type y Reference Type - iOS - Swift\nhttps://bit.ly/3bflhku\n\nParte 3: Manejo de Memoria - ARC y Retain Cycle con Closures y Delegates - iOS\nhttps://bit.ly/3qmzrZM\n\n-- Timestamps --\n00:00 Introducción\n00:48 Que es ARC o Automatic Reference Counting\n02:22 Ejemplo del contador de ARC\n06:24 Ejercicio de ARC - deinit\n10:11 Segundo ejemplo ARC\n14:56 Retain Cycle\n17:37 Strong, Weak, Unowned\n20:05 Resolviendo un Retain Cycle\n25:29 Ejercicio práctico Retain Cycle\n28:40 Instrument\n33:28 Introducción a la tercera parte de la explicación\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#ARC #RetainCycle #MemoryLeak #StrongWeakUnowned #iOSDevelopment  #MemoryManagement  #AutomaticReferenceCounting",
+                "publishedAt": "2022-07-04T22:59:46Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Como usar un #UITapGestureRecognizer en iOS con swift  App de Notas (2da parte)",
+                "description": "En ese video aprenderás a crear una gestura del tipo #UITapGestureRecognizer para agregarla a cualquier imagen, esta es la 2da parte de  la app de notas utilizando #Realm en #ios con #swift\n\nParte 1: https://youtu.be/jNm_GzL6nr0\nParte 2: https://youtu.be/_Zg4nX3vwQ0\nParte 3: https://youtu.be/LUagJmZjaSo\nParte 4: https://youtu.be/heJiK2u86Ws\nParte 5: https://youtu.be/ruZtRpaWy_w\nCódigo completo de la app: https://drive.google.com/file/d/1Ra-zefkXZCNhprfO1VtqXauXj1LLlfke/view?usp=sharing",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/lWZLs5BYLiM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/_Zg4nX3vwQ0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/lWZLs5BYLiM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_Zg4nX3vwQ0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/lWZLs5BYLiM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_Zg4nX3vwQ0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/lWZLs5BYLiM/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/lWZLs5BYLiM/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuNE0t8rCWkArfpTgkJP9lm",
+                "channelTitle": "Marco Alonso",
+                "playlistId": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
                 "position": 1,
                 "resourceId": {
                     "kind": "youtube#video",
-                    "videoId": "lWZLs5BYLiM"
+                    "videoId": "_Zg4nX3vwQ0"
                 },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+                "videoOwnerChannelTitle": "Marco Alonso",
+                "videoOwnerChannelId": "UCknu6vH4a8tXLFpM_uQ-hBA"
             },
             "contentDetails": {
-                "videoId": "lWZLs5BYLiM",
-                "videoPublishedAt": "2021-10-28T05:00:14Z"
+                "videoId": "_Zg4nX3vwQ0",
+                "videoPublishedAt": "2022-05-20T19:59:33Z"
             }
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "MR9q6RYhp0UAHuEZNKNJqwz1sjQ",
-            "id": "UExUX09PYktaM0NwdU5FMHQ4ckNXa0FyZnBUZ2tKUDlsbS4wMTcyMDhGQUE4NTIzM0Y5",
+            "etag": "8GVTn7s6kxKxta4YeKAAV5JshFw",
+            "id": "UExhWFZ2VVZ0TzdWdHNyaXM5TTduSFM5dDBWWE1oX3lRXy4wMTcyMDhGQUE4NTIzM0Y5",
             "snippet": {
-                "publishedAt": "2022-03-11T03:38:32Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Manejo de Memoria - ARC y Retain Cycle con Closures y Delegates - iOS - Swift 3/3",
-                "description": "En este vide te explico qué son los closures brevemente y principalmente me enfoco en cómo se generan los retain cycles utilizando closures. Vas a aprender como revisar estos memory leaks desde el memory graph debuger. También te enseño cómo se puede generar un retain cycle utilizando el patron Delegations y también te explico cómo puedes resolverlo. \nTe traigo todo este conocimiento en español para que lo entiendas al 100%.\n\nNo olvides dejar tus comentarios y regalarme un like, de esta forma me apoyas en seguir creando contenido.\n\nParte 1: Manejo de Memoria - Value Type y Reference Type - iOS - Swift\nhttps://bit.ly/3bflhku\n\nParte 2: Manejo de Memoria - ARC y Retain Cycle, Strong, Weak, Unowned - iOS\nhttps://bit.ly/3jJqhm5\n\n\n-- Timestamps --\n00:00 Introducción\n00:40 Resumen de la parte 2\n01:28 Introducción a Closures\n02:10 Ejemplo práctico de Closures\n06:09 Retain Cycle en Closures \n07:18 Capture List en Closures\n10:42 Automatic Reference Counting en Closures\n12:30 Ejemplo de Closures y Retain Cycles en Xcode\n20:47 Patrón Observer y Closures\n25:11 Debug Memory Graph  \n26:09 Debug Navigator - Memory\n27:48 Memory Leak desde el Debug Memory Graph\n31:30 DispatchQueue y Capture List\n35:15 Retain Cycles y el Patrón Delegations\n39:15 Diagrama para saber cuando se genera un Retain Cycle con Closures\n\nDiagrama Detección de Retain Cycles - Medium\nhttps://medium.com/flawless-app-stories/you-dont-always-need-weak-self-a778bec505ef\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#iOSDevelopment #RetainCycle #MemoryLeak #MemoryManagement #closures #weakself #unowned #delgationspatter",
+                "publishedAt": "2022-07-04T23:00:01Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Crear objetos en una base de datos con #Realm en ios con swift, creando una App de Notas (3ra parte)",
+                "description": "En este video aprenderás a guardar objetos en el dispositivo utilizando #Realm , algunas de las propiedades son del tipo #String #Date  e imagenes pero del tipo #NSData\n\nApp Notas en #ios con #swift #realmdatabase\n\nParte 1: https://youtu.be/jNm_GzL6nr0\nParte 2: https://youtu.be/_Zg4nX3vwQ0\nParte 3: https://youtu.be/LUagJmZjaSo\nParte 4: https://youtu.be/heJiK2u86Ws\nParte 5: https://youtu.be/ruZtRpaWy_w\nCódigo completo de la app: https://drive.google.com/file/d/1Ra-zefkXZCNhprfO1VtqXauXj1LLlfke/view?usp=sharing",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/eLhG15kJws0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/LUagJmZjaSo/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/eLhG15kJws0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LUagJmZjaSo/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/eLhG15kJws0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LUagJmZjaSo/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuNE0t8rCWkArfpTgkJP9lm",
+                "channelTitle": "Marco Alonso",
+                "playlistId": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
                 "position": 2,
                 "resourceId": {
                     "kind": "youtube#video",
-                    "videoId": "eLhG15kJws0"
+                    "videoId": "LUagJmZjaSo"
                 },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+                "videoOwnerChannelTitle": "Marco Alonso",
+                "videoOwnerChannelId": "UCknu6vH4a8tXLFpM_uQ-hBA"
             },
             "contentDetails": {
-                "videoId": "eLhG15kJws0",
-                "videoPublishedAt": "2021-11-11T05:00:11Z"
+                "videoId": "LUagJmZjaSo",
+                "videoPublishedAt": "2022-05-22T19:41:40Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "yd3yyBXtLMHMKUvNNhAc2Pi_Rj0",
+            "id": "UExhWFZ2VVZ0TzdWdHNyaXM5TTduSFM5dDBWWE1oX3lRXy41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2022-07-04T23:00:45Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Leer objetos en una base de datos con #Realm en ios con swift, creando una App de Notas (4ta parte)",
+                "description": "En este video aprenderás a leer objetos almacenados en el dispositivo utilizando #Realm\n\nApp Notas en #ios con #swift #realmdatabase\n\nParte 1: https://youtu.be/jNm_GzL6nr0\nParte 2: https://youtu.be/_Zg4nX3vwQ0\nParte 3: https://youtu.be/LUagJmZjaSo\nParte 4: https://youtu.be/heJiK2u86Ws\nParte 5: https://youtu.be/ruZtRpaWy_w\nCódigo completo de la app: https://drive.google.com/file/d/1Ra-zefkXZCNhprfO1VtqXauXj1LLlfke/view?usp=sharing",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/heJiK2u86Ws/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/heJiK2u86Ws/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/heJiK2u86Ws/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "playlistId": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "heJiK2u86Ws"
+                },
+                "videoOwnerChannelTitle": "Marco Alonso",
+                "videoOwnerChannelId": "UCknu6vH4a8tXLFpM_uQ-hBA"
+            },
+            "contentDetails": {
+                "videoId": "heJiK2u86Ws",
+                "videoPublishedAt": "2022-05-22T19:47:07Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Ef8ne9wUJPftRb6TW5dJtMlOP7A",
+            "id": "UExhWFZ2VVZ0TzdWdHNyaXM5TTduSFM5dDBWWE1oX3lRXy4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2022-07-04T23:00:58Z",
+                "channelId": "UCknu6vH4a8tXLFpM_uQ-hBA",
+                "title": "Editar y eliminar datos con #Realm en ios con swift, creando una App de Notas (5ta y ultima parte)",
+                "description": "En este video aprenderás a editar y eliminar objetos almacenados en el dispositivo utilizando #Realm\n\nApp Notas en #ios con #swift #realmdatabase\n\nParte 1: https://youtu.be/jNm_GzL6nr0\nParte 2: https://youtu.be/_Zg4nX3vwQ0\nParte 3: https://youtu.be/LUagJmZjaSo\nParte 4: https://youtu.be/heJiK2u86Ws\nParte 5: https://youtu.be/ruZtRpaWy_w\nCódigo completo de la app: https://drive.google.com/file/d/1Ra-zefkXZCNhprfO1VtqXauXj1LLlfke/view?usp=sharing",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ruZtRpaWy_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Marco Alonso",
+                "playlistId": "PLaXVvUVtO7Vtsris9M7nHS9t0VXMh_yQ_",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ruZtRpaWy_w"
+                },
+                "videoOwnerChannelTitle": "Marco Alonso",
+                "videoOwnerChannelId": "UCknu6vH4a8tXLFpM_uQ-hBA"
+            },
+            "contentDetails": {
+                "videoId": "ruZtRpaWy_w",
+                "videoPublishedAt": "2022-05-22T20:41:12Z"
             }
         }
     ],
     "pageInfo": {
-        "totalResults": 3,
+        "totalResults": 5,
         "resultsPerPage": 5
     }
 }
