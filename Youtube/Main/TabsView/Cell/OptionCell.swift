@@ -9,13 +9,14 @@ import UIKit
 
 class OptionCell: UICollectionViewCell {
 
+    @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     
     func configCell(option: String) {
-        
+        titleLabel.text = option
     }
 
 }
