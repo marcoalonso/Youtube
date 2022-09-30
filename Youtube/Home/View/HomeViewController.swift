@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FloatingPanel
 
 class HomeViewController: UIViewController {
 
@@ -16,11 +17,13 @@ class HomeViewController: UIViewController {
     
     private var objectList: [[Any]] = []
     private var sectionTitleList: [String] = [] //se puede utilizar el mismo atributo que esta dentro del presenter
+    var fpc: FloatingPanelController?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configTableView()
-
+        configFloatingPanel()
         //Este closure manda llamar algo que se ejecuta en 2 plano
         Task {
             //Toma la instancia del presenter y manda llamar al metodo
@@ -123,6 +126,23 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return sectionView
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //ver el id del video a mostrar
+        let item = objectList[indexPath.section]
+        var videoId: String = ""
+        
+        if let playListItem = item as? [PlaylistItemsModel.Item] {
+            videoId = playListItem[indexPath.row].contentDetails?.videoId ?? ""
+        } else if let videos = item as? [VideoModel.Item] {
+            videoId = videos[indexPath.row].id ?? ""
+        } else {
+            return
+        }
+        
+        presentViewPanel(videoId)
+    }
+    
+    
     func configButtonSheet(){
         //crear vc
         let vc = BottomSheetViewController()
@@ -138,6 +158,53 @@ extension HomeViewController: HomeViewProtocol {
         self.sectionTitleList = sectionTitleList
         tableViewHome.reloadData()
     }
+}
+
+extension HomeViewController: FloatingPanelControllerDelegate {
+    func presentViewPanel(_ videoID : String) {
+        let contentVC = PlayVideoViewController()
+        contentVC.videoID = videoID
+        fpc?.set(contentViewController: contentVC)
+        if let fpc = fpc {
+            present(fpc, animated: true)
+        }
+        
+    }
     
+    func configFloatingPanel() {
+        fpc = FloatingPanelController(delegate: self)
+        //Al hacer swipe elimina el vc
+        fpc?.isRemovalInteractionEnabled = true
+        fpc?.surfaceView.grabberHandle.isHidden = true
+        fpc?.layout = MyFloatingPanelLayout()
+        fpc?.surfaceView.contentPadding = .init(top: -48, left: 0, bottom: -48, right: 0)
+    }
     
+    // que hacer al cerrarlo
+    func floatingPanelDidRemove(_ fpc: FloatingPanelController) {
+        
+    }
+    
+    func floatingPanelWillEndDragging(_ fpc: FloatingPanelController, withVelocity velocity: CGPoint, targetState: UnsafeMutablePointer<FloatingPanelState>) {
+        if targetState.pointee != .full {
+            //cuando este pantalla  abajo
+        } else {
+            //cuando este pantalla completa
+        }
+    }
+}
+
+
+class MyFloatingPanelLayout: FloatingPanelLayout {
+    let position: FloatingPanelPosition = .bottom
+    let initialState: FloatingPanelState = .full
+    var anchors: [FloatingPanelState: FloatingPanelLayoutAnchoring] {
+        return [
+            //coordenadas de como mostrarse
+            .full: FloatingPanelLayoutAnchor(absoluteInset: 0.0, edge: .top, referenceGuide: .safeArea),
+            //half no se ocupa
+            //.half: FloatingPanelLayoutAnchor(fractionalInset: 0.5, edge: .bottom, referenceGuide: .safeArea),
+            .tip: FloatingPanelLayoutAnchor(absoluteInset: 60.0, edge: .bottom, referenceGuide: .safeArea),
+        ]
+    }
 }

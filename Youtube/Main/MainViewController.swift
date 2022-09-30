@@ -137,7 +137,7 @@ extension MainViewController: RootPageProtocol {
 
 extension MainViewController: TabsViewProtocol {
     func didSelectOption(index: Int) {
-        print("index: ",index)
+//        print("index: ",index)
         didTapOption = true
         
         //Mantener la linea en la parte de abajo de la opcion seleccionada

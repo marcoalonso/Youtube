@@ -22,8 +22,10 @@ class TabsView : UIView {
         
         collection.delegate = self
         collection.dataSource = self
+        
         collection.showsVerticalScrollIndicator = false
         collection.showsHorizontalScrollIndicator = false
+        
         collection.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0)
         //Cuando ponga constraints no tenga problemas
         collection.translatesAutoresizingMaskIntoConstraints = false

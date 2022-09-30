@@ -7,4 +7,5 @@ target 'Youtube' do
 
   # Pods for Youtube
 pod 'Kingfisher'
+pod 'FloatingPanel'
 end
