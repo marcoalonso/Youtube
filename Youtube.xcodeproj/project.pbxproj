@@ -212,6 +212,31 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
+		60156EB328E9478900618A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60156EB528E947A300618A5C /* Model */,
+				60156EB428E9479300618A5C /* Presenter */,
+				60CD4C4E2898971D003F3FE5 /* PlayVideoViewController.swift */,
+				60CD4C4F2898971D003F3FE5 /* PlayVideoViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60156EB428E9479300618A5C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		60156EB528E947A300618A5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		602AFA1228735F64006868C7 /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,8 +478,7 @@
 		60CD4C4B289896E5003F3FE5 /* PlayVideo */ = {
 			isa = PBXGroup;
 			children = (
-				60CD4C4E2898971D003F3FE5 /* PlayVideoViewController.swift */,
-				60CD4C4F2898971D003F3FE5 /* PlayVideoViewController.xib */,
+				60156EB328E9478900618A5C /* View */,
 			);
 			path = PlayVideo;
 			sourceTree = "<group>";
