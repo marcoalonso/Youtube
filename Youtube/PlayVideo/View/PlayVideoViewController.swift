@@ -8,7 +8,7 @@
 import UIKit
 import youtube_ios_player_helper
 
-class PlayVideoViewController: UIViewController, YTPlayerViewDelegate {
+class PlayVideoViewController: BaseViewController, YTPlayerViewDelegate {
 
     @IBOutlet weak var tableViewVideos: UITableView!
     @IBOutlet weak var playerView: YTPlayerView!
@@ -61,13 +61,15 @@ class PlayVideoViewController: UIViewController, YTPlayerViewDelegate {
 
 }
 
+
+//MARK: Protocol
 extension PlayVideoViewController: PlayVideoViewProtocol {
     func getRelatedVideosFinished() {
         print("DEBUG: Response")
         tableViewVideos.reloadData()
     }
 }
-
+//MARK: DataSource and Delegate
 extension PlayVideoViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return presenter.relatedVideoList.count

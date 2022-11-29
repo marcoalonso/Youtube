@@ -8,10 +8,12 @@
 import Foundation
 
 
-protocol HomeViewProtocol : AnyObject{
+protocol HomeViewProtocol : AnyObject, BaseViewProtocol {
+    //Devolver la info a la vista
     func getData(list: [[Any]], sectionTitleList: [String])
 }
 
+@MainActor
 class HomePresenter  {
     var provider: HomeProviderProtocol //conforma un protocolo
     weak var delegate : HomeViewProtocol?
@@ -36,7 +38,7 @@ class HomePresenter  {
     }
     
     //Las llamadas que se hacen al servicio, cuando venga la respuesta y vaya a actualizar el UI es pasarlo por el main treath
-    @MainActor
+   
     //se hara una instancia o metodo para obtener videos y se llamara a la otra capa
     func getHomeObjects() async {
         objectList.removeAll() //en caso que ya se haya consumido
@@ -75,7 +77,12 @@ class HomePresenter  {
             delegate?.getData(list: objectList, sectionTitleList: sectionTitleList)
 
         }catch {
-            print("Error al obtener videos :\(error.localizedDescription)")
+            delegate?.showError(error.localizedDescription, callback: {
+                //cuando llamen el closure
+                Task { [weak self] in
+                    await self?.getHomeObjects()
+                }
+            })
         }
         
     }
@@ -86,7 +93,12 @@ class HomePresenter  {
             let playlistItems = try await provider.getPlaylistsItems(playlistId: playlistId)
             return playlistItems
         }catch {
-            print("Error al obtener videos del playlist :\(error.localizedDescription)")
+            delegate?.showError(error.localizedDescription, callback: {
+                //cuando llamen el closure
+                Task { [weak self] in
+                    await self?.getHomeObjects()
+                }
+            })
             return nil
         }
     }

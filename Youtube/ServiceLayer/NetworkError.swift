@@ -23,7 +23,7 @@ extension NetworkError : LocalizedError{
         case .invalidURL:
             return NSLocalizedString("La URL es inválida", comment: "")
         case .serializationFailed:
-            return NSLocalizedString("Falló ucando trató de serializar el body del request", comment: "")
+            return NSLocalizedString("Falló cuando trató de serializar el body del request", comment: "")
         case .generic:
             return NSLocalizedString("La app falló por un error desconocido, validar API-Key", comment: "")
         case .couldNotDecodeData:

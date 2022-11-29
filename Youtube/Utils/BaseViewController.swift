@@ -6,6 +6,10 @@
 //
 
 import UIKit
+protocol BaseViewProtocol {
+    func showError(_ error: String, callback: (()->Void)?)
+}
+
 
 class BaseViewController: UIViewController {
 
@@ -64,4 +68,25 @@ class BaseViewController: UIViewController {
         print("dotsButtonPressed")
     }
 
+}
+
+extension BaseViewController {
+    func showError(_ error: String, callback: (()->Void)?){
+        //reintentar el llamado al API
+        let alerta = UIAlertController(title: "ERROR", message: error, preferredStyle: .alert)
+        if let callback = callback {
+            alerta.addAction(UIAlertAction(title: "Intentar de nuevo", style: .default, handler: { action in
+                if action.style == .default {
+                    callback()
+                }
+            }))
+        }
+        alerta.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { action in
+            if action.style == .cancel {
+                print("Ok ")
+            }
+        }))
+       
+        present(alerta, animated: true)
+    }
 }
