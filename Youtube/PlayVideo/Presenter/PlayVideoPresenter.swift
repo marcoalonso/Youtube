@@ -32,8 +32,11 @@ protocol PlayVideoViewProtocol : AnyObject, BaseViewProtocol {
     
     func getVideos(_ videoId: String) async {
         //consultar el 1er video y ya que tenga info p pintar en pantalla hago la de los otros 2
-        
+        delegate?.loadingView(.show)
         do {
+            defer {
+                delegate?.loadingView(.hide)
+            }
             let response = try await provider.getVideo(videoId)
             relatedVideoList.append(response.items)
             

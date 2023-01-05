@@ -6,13 +6,21 @@
 //
 
 import UIKit
+enum LoadingViewState {
+    case show
+    case hide
+}
+
 protocol BaseViewProtocol {
+    func loadingView(_ state: LoadingViewState)
     func showError(_ error: String, callback: (()->Void)?)
 }
 
 
 class BaseViewController: UIViewController {
 
+    var loadingIndicator = UIActivityIndicatorView(style: .large)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -88,5 +96,25 @@ extension BaseViewController {
         }))
        
         present(alerta, animated: true)
+    }
+    
+    func loadingView(_ state: LoadingViewState) {
+        switch state {
+        case .show:
+            showLoading()
+        case .hide:
+            hideLoading()
+        }
+    }
+    
+    private func showLoading() {
+        view.addSubview(loadingIndicator)
+        loadingIndicator.center = view.center
+        loadingIndicator.startAnimating()
+    }
+    
+    private func hideLoading() {
+        loadingIndicator.stopAnimating()
+        loadingIndicator.removeFromSuperview()
     }
 }

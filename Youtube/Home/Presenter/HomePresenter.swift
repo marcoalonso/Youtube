@@ -43,7 +43,7 @@ class HomePresenter  {
     func getHomeObjects() async {
         objectList.removeAll() //en caso que ya se haya consumido
         sectionTitleList.removeAll()
-        
+        delegate?.loadingView(.show)
         async let channel = try await provider.getChannel(channelId: Constants.channelId).items
         async let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
         async let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
@@ -51,6 +51,9 @@ class HomePresenter  {
         
         //Cuandos se hará una consulta asincrona el metodo tiene que se async
         do {
+            defer {
+                delegate?.loadingView(.hide)
+            }
             //await espere a que cada una de las llamadas este lista para ser asignada a las variables
             let (responseChannel, responsePlaylist, responseVideos) = await (try channel, try playlist, try videos)
             
